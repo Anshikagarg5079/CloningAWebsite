@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    background-color: rgb(241, 226, 251);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header{
+    background-color: #460066;
+    
+}
+.logo{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    padding: 20px;
+}
+.button button{
+    background-color: #ffffff;
+    color: rgb(160, 49, 207);
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.nav-links li a{
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+.logo h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;  
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+}
+.search{
+    padding-top: 0px;
+    box-sizing: border-box;
+    border: rgba(255, 217, 0, 0.94);
+    border-radius: 10px;
+}
+.box{
+    width: 700px;
+    padding: 40px;
+    box-shadow: #460066;
+    
+}
+.offer{
+    background-color: #460066;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.promotion{
+    padding-left: 20px;
+}
+.search-box input, .search-box button {
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+.support{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.destination-grid{
+    display: flex;
+    justify-content: space-around;
+}
+.destination-card{
+    border-radius: 150px;
+    padding: 5px;
+    box-shadow: #460066;
+
+}
+.featured {
+    padding: 50px;
+    text-align: left;
+}
+.destination-grid1 {
+    display: flex;
+    justify-content: center;
+    width:500 px;
+    gap: 20px;
+}
+.patna {
+    padding: 50px;
+    text-align: left;
+}
+
+.trip {
+    padding: 50px;
+    text-align: left;
+}
+
+.destination-grid {
+    display: flex;
+    justify-content: center;
+    width:500 px;
+    gap: 20px;
+    text-align: center;
+}
+.destination-card1 img {
+    height: 222px;
+    width: 222px;
+}
+ooter {
+    background-color: #003580;
+    color: rgb(17, 71, 233);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #f8f8f8;
+    padding: 30px 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.text-center{
+    text-align: center;
+}
